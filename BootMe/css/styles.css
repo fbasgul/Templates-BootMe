@@ -222,29 +222,17 @@ margin-bottom: 10px;
 
 }
 
-@media (min-width: 576px) {     #study .col-md-3:last-child{
-    background-color: yellow;
-}
-}
+@media (min-width: 576px) and (max-width: 767.98px) { .sastudy .col-md-3:last-child{margin-right: auto;
+    margin-left: 100px}  }
 
-@media (min-width: 768px) {     
-    #study .col-md-3{
-    margin-left: 20%;
-    margin-right: 20%;
-        }
-#study .col-md-3:last-child{
-    margin-top:25%;
+@media (min-width: 768px) and (max-width: 991.98px) { .sastudy .col-md-3:first-child{background-color: purple;width:80%;
+    margin: 0 auto;padding: 0;
+    }  
+    .sastudy .col-md-3:last-child{ margin-right: auto;
+    margin-left: auto;}
 }
+@media (min-width: 992px) and (max-width: 1199.98px) {     .sastudy .col-md-3:last-child{ margin-right: auto;
+    margin-left: auto;margin-top:100px} }
 
-}
-
-@media (min-width: 992px) {     #study .col-md-3:last-child{
-    background-color: purple;
-}
-}
-
-@media (min-width: 1200px) {     #study .col-md-3:last-child{
-    background-color: aqua;
-}
-}
-
+@media (min-width: 1200px) { .sastudy .col-md-3:last-child{margin-right: auto;
+    margin-left: auto;margin-top:50px}}         
